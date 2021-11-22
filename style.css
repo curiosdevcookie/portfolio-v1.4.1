@@ -27,15 +27,15 @@
 
 /*** 2. CSS variables ***/
 :root {
-  --color-bg: #BDC9FF;
-  --color-main: #000000;
+  --color-bg: #AA81FF;
+  --color-main: #000085;
   --color-accent: #AFECE0;
 	
-  --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-h1: "Calligraffitti";
+  --font-family-header: "HK
+		Grotesk";
 }
 
 /****************************************/
@@ -51,14 +51,13 @@ body{
 
 /*** 3. Fonts ***/
 
-/* Import fonts */
-@font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 	
-
 /*** 4. Main ***/
+
+main{
+	background-color: var(--color-bg);
+}
 
 nav {
     display: grid;
@@ -68,9 +67,18 @@ nav {
   }
 
 li {	
-	border: 0.1rem solid black;}
-  
+	border: 0.1rem solid black;
+}
 
+
+/*** 5.Headings ***/
+
+h1{
+	font-family:var(--font-h1);
+}
+
+h2{
+	font-family:var(--font-h1)
 }
 
 /* Our remix on glitch button */
@@ -83,7 +91,7 @@ li {
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #F200FF;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -110,8 +118,7 @@ li {
   border-top: 4px solid #fff;
 }
 .footer a:hover {
-  background: var(--color-primary);
-}
+  background: 
 
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
@@ -128,14 +135,6 @@ END Glitch hello-app default styles
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
-}
-
-/* Page structure */
-.wrapper {
-  min-height: var(--wrapper-height);
-  display: grid;
-  place-items: center;
-  margin: 0 1rem;
 }
 .content {
   display: flex;
@@ -170,22 +169,7 @@ p {
   margin-top: 1rem;
 }
 
-/* Styles for our custom color form and its results */
-.color-info {
-  margin-left: 5px;
-}
-.color-search {
-  margin-top: 3rem;
-}
-.color-form {
-  width: 90%;
-  max-width: 500px;
-  margin-left: 5px;
-}
-.color-form a:not(.btn--remix) {
-  font-weight: bold;
-  color: var(--color-text-main);
-  margin-top: 8px;
+
 }
 .color-form button {
   margin-top: 8px;
