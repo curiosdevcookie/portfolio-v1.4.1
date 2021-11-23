@@ -22,20 +22,18 @@
 
 * {
   box-sizing: border-box;
-	font-size: calc(1rem/1.6);
+	/*font-size: calc(1rem/1.6);*/
 }
 
 /*** 2. CSS variables ***/
 :root {
-  --color-bg: #AA81FF;
-  --color-main: #000085;
-  --color-accent: #AFECE0;
+  --color-bg: #FFF;
+  --color-main: #999;
+  --color-accent: #ffd174;
 	
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-h1: "Calligraffitti";
-  --font-family-header: "HK
-		Grotesk";
+  --font-family: "Fraunces";
 }
 
 /****************************************/
@@ -43,15 +41,15 @@
 
 body{
     display: grid;
-    grid-template-columns: clamp(320px 60% 500px);
-    grid-gap: 1rem;
-		border: 0.1rem solid black;
+			/* clamp(320px 60% 500px);*/
+    grid-gap: 2rem;
+	/*	border: 0.1rem solid black;*/
 	
   }
 
 /*** 3. Fonts ***/
 
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Fraunces:ital,wght@0,100;0,300;1,100;1,900&family=Recursive:wght@300;700&display=swap');
 	
 /*** 4. Main ***/
 
@@ -63,26 +61,39 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     grid-gap: 1rem;
-		border: 0.1rem solid black;
+		/*border: 0.1rem solid black;*/
   }
 
 li {	
-	border: 0.1rem solid black;
+	list-style: none;
+	/*border: 0.1rem solid black;*/
 }
-
 
 /*** 5.Headings ***/
 
 h1{
-	font-family:var(--font-h1);
+font-family: 'Calligraffitti', cursive;
+color: #999
 }
 
-h2{
-	font-family:var(--font-h1)
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #000;
 }
+.footer a:hover {
+  background: 
 
-/* Our remix on glitch button */
-.btn--remix {
+.footer .links {
+  padding: 0.5rem 1rem 1.5rem;
+  white-space: nowrap;
+
+/*** 6. Components ***/
+.btn {
   font-family: HK Grotesk;
   padding: 0.75rem 1rem;
   font-size: 1.1rem;
@@ -91,38 +102,21 @@ h2{
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #F200FF;
+  background: #999;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
   text-decoration: none;
   color: #000;
   white-space: nowrap;
-  margin-left: auto;
+  margin-left: auto
 }
-.btn--remix img {
-  margin-right: 0.5rem;
-}
-.btn--remix:hover {
+.btn:hover {
   background-color: #D0FFF1;
 }
 
 /* Navigation grid */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem auto 0;
-  padding: 1rem 0 0.75rem 0;
-  width: 100%;
-  flex-wrap: wrap;
-  border-top: 4px solid #fff;
-}
-.footer a:hover {
-  background: 
 
-.footer .links {
-  padding: 0.5rem 1rem 1.5rem;
-  white-space: nowrap;
 }
 
 .divider {
