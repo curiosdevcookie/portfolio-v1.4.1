@@ -3,30 +3,51 @@
 
 /* -----------------------------------------------------*/
 
-/* >>> 1. Resets  <<<<<<<<<<<<< */
+/* >>> 1. RESETS  <<<<<<<<<<<<< */
 
 /* >>> 2. CSS VARIABLES  <<<<<< */
 
-/* >>> 3. Fonts  <<<<<<<<<<<<<< */
+/* >>> 3. FONTS  <<<<<<<<<<<<<< */
 
-/* >>> 4. Main <<<<<<<<<<<<<<<< */
+/* >>> 4. NAVIGATION <<<<<<<<<< */
 
-/* >>> 5. Components <<<<<<<<<< */
+/* >>> 5. COMPONENTS <<<<<<<<<< */
 
-/* >>> 6. Varia <<<<<<<<<<<<<<< */
+/* >>> 6. VARIA <<<<<<<<<<<<<<< */
 
 /* -----------------------------------------------------*/
 
 /* >>> 1. RESETS  <<<<<<<<<<<<< */
-
 :root{
   padding: 0;
   margin: 0;
   font-size: 62.5%;
 
-/*** 2. CSS VARIABLES <<<<<<<<<<<<< */
+/* >>> 2. CSS VARIABLES <<<<<<< */
 --black: #000000;
 --color-grey: #BABABA;
 --color-white: #FFFFFF;
 --color-green: #BAF584;
+
+
+/* >>> 3. FONTS  <<<<<<<<<<<<<< */
+--font--heading: 'Roboto', sans-serif;
+--font--regular: 'Arima', sans-serif;
 }
+
+®font-face{
+  font-family: var(--font--heading), sans-serif;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: var(--font--regular);
+  src: url('../fonts/Arima-VariableFont_wght.ttf');
+}
+
+
+/* >>> 4. NAVIGATION <<<<<<<<<< */
+
+/* >>> 5. COMPONENTS <<<<<<<<<< */
+
+/* >>> 6. VARIA <<<<<<<<<<<<<<< */
