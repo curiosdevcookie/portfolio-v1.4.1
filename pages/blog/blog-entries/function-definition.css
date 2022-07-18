@@ -1,12 +1,44 @@
+:root{
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+
+/* >>> 2. CSS VARIABLES <<<<<<< */
+--black: #000000;
+--color-grey: #BABABA;
+--color-white: #FFFFFF;
+--color-green: #BAF584;
+
+
+/* >>> 3. FONTS  <<<<<<<<<<<<<< */
+--font--regular: 'Arima', sans-serif;
+
+}
+
+@font-face {
+  font-family: var(--font--regular);
+  src: url('../fonts/Arima-VariableFont_wght.ttf');
+}
+
+
 ol {
   counter-reset: listCounter;
 }
+
 li {
   counter-increment: listCounter;
 }
-li::marker {
-   content:  counters(listCounter, '.', upper-roman);
+
+ol li::marker {
+  color: var(--color-green);
+  font-weight: lighter;
+  font-size: 3em;
 }
+
+li::marker {
+  content: counters(listCounter, '.');
+}
+
 li::before {
-  content:  counters(listCounter, '.') " ";
+  content: counter(listCounter, '.');
 }
