@@ -28,23 +28,29 @@
 --color-grey: #BABABA;
 --color-white: #FFFFFF;
 --color-green: #BAF584;
-
+--color-purple: rebbeccapurple;
 
 /* >>> 3. FONTS  <<<<<<<<<<<<<< */
---font--heading: 'Roboto', sans-serif;
---font--regular: 'Arima', sans-serif;
-}
+--font-heading: 'Arima', serif;
+--font-handwritten: 'Caveat' , serif;
+--font-regular: 'Roboto Flex', sans-serif;
 
-®font-face{
-  font-family: var(--font--heading), sans-serif;
-  src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
-  font-family: var(--font--regular);
-  src: url('../fonts/Arima-VariableFont_wght.ttf');
+  font-family: var(--font-heading);
+  src: url('/fonts/Arima/Arima-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: var(--font-handwritten);
+  src: url('./fonts/Caveat/Caveat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: var(--font-regular);
+  src: url('./fonts/Roboto_Flex/');
+}
 
 /* >>> 4. NAVIGATION <<<<<<<<<< */
 

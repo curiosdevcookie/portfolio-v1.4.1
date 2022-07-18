@@ -1,0 +1,60 @@
+:root{
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+
+/* >>> 2. CSS VARIABLES <<<<<<< */
+--black: #000000;
+--color-grey: #BABABA;
+--color-white: #FFFFFF;
+--color-green: #BAF584;
+--color-purple: rebbeccapurple;
+
+/* >>> 3. FONTS  <<<<<<<<<<<<<< */
+--font-heading: 'Arima', serif;
+--font-handwritten: 'Caveat' , serif;
+--font-regular: 'Montserrat', sans-serif;
+
+}
+
+@font-face {
+  font-family: var(--font-heading);
+  src: url('/fonts/Arima/Arima-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: var(--font-handwritten);
+  src: url('./fonts/Caveat/Caveat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: var(--font-regular);
+  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+aside {
+  width: 40%;
+  padding: 1rem;
+  margin-left: 2rem;
+  float: right;
+  box-shadow: inset 5em 1em var(--color-green);
+  font-style: italic;
+  color: rebeccapurple;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+#col {
+column-count: auto;
+column-width: 40rem;
+column-gap: 5rem;
+column-fill: auto;
+column-rule: 0.3rem solid var(--color-green);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-handwritten);
+}
+
+p {
+  font-size: 1.5rem;
+}
