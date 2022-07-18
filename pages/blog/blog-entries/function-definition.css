@@ -1,26 +1,3 @@
-:root{
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-
-/* >>> 2. CSS VARIABLES <<<<<<< */
---black: #000000;
---color-grey: #BABABA;
---color-white: #FFFFFF;
---color-green: #BAF584;
-
-
-/* >>> 3. FONTS  <<<<<<<<<<<<<< */
---font--regular: 'Arima', sans-serif;
-
-}
-
-@font-face {
-  font-family: var(--font--regular);
-  src: url('../fonts/Arima-VariableFont_wght.ttf');
-}
-
-
 ol {
   counter-reset: listCounter;
 }
