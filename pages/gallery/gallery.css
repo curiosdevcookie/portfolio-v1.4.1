@@ -1,0 +1,83 @@
+:root{
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-flow: dense;
+  grid-gap: 1rem;
+  /* padding: 2rem; */
+}
+
+.image {
+  border: 0.1rem solid goldenrod;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+#image-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  background-image: url('../../images/paintings/Blue-yellow.jpeg');
+  background-size: cover;
+}
+
+#image-2 {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  background-image: url('../../images/paintings/Colorful-dark_on-cloth.png');
+  background-size: cover;
+}
+
+#image-3 {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2;
+  background-image: url('../../images/paintings/Colorful-light.jpeg');
+  background-size: cover;
+}
+
+#image-4 {
+  grid-column: auto;
+  grid-row: 3 / span 1;
+  background-image: url('../../images/paintings/Orange-blue-grey.png');
+  background-size: cover;
+}
+
+#image-5 {
+  grid-column: auto;
+  grid-row: 3 / span 1;
+  background-image: url('../../images/paintings/Pink-black-white-gold.jpeg');
+  background-size: cover;
+}
+
+#image-6 {
+  grid-column: auto;
+  grid-row: auto;
+  background-image: url('../../images/set-grunge-frames/345.jpg');
+  background-size: cover;
+}
+
+#image-7 {
+  grid-column: auto;
+  grid-row: 3 / span 1;
+  background-image: url('../../images/paintings/Pink-red-gold-blue.jpeg');
+  background-size: cover;
+}
+
+#image-8 {
+  grid-column: auto;
+  grid-row: auto;
+  background-image: url('../../images/set-grunge-frames/345.jpg');
+  background-size: cover;
+}
+
+#image-9 {
+  grid-column: auto;
+  grid-row: auto;
+  background-image: url('../../images/set-grunge-frames/345.jpg');
+  background-size: cover;
+}
