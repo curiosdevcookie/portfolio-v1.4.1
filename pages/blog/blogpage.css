@@ -10,51 +10,85 @@
 --color-green: #BAF584;
 --color-purple: rebbeccapurple;
 
-/* >>> 3. FONTS  <<<<<<<<<<<<<< */
---font-heading: 'Arima', serif;
+--font-regular: 'Arima', serif;
 --font-handwritten: 'Caveat' , serif;
---font-regular: 'Montserrat', sans-serif;
-
-}
-
-@font-face {
-  font-family: var(--font-heading);
-  src: url('/fonts/Arima/Arima-VariableFont_wght.ttf');
-}
-
-@font-face {
-  font-family: var(--font-handwritten);
-  src: url('./fonts/Caveat/Caveat-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: var(--font-regular);
-  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  src: url('../../fonts/Arima/Arima-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: var(--font-handwritten);
+  src: url('../../fonts/Caveat/Caveat-VariableFont_wght.ttf');
+}
+
+main {
+  padding: 5rem;
+  font-family: var(--font-regular);
+}
+
+details{
+  padding: 2rem;
+  background-color: var(--color-green);
+}
+
+summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+ol {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 aside {
-  width: 40%;
-  padding: 1rem;
+  width: 33%;
+  padding: 2rem 3.5rem;
   margin-left: 2rem;
   float: right;
   box-shadow: inset 5em 1em var(--color-green);
-  font-style: italic;
-  color: rebeccapurple;
   border-radius: 50% 20% / 10% 40%;
 }
 
-#col {
-column-count: auto;
-column-width: 40rem;
-column-gap: 5rem;
-column-fill: auto;
-column-rule: 0.3rem solid var(--color-green);
+aside p {
+  font-family: var(--font-regular);
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.2;
 }
 
+#col {
+  padding: 3rem 3.5rem;
+  column-count: auto;
+  column-width: 40rem;
+  column-gap: 5rem;
+  column-fill: auto;
+  column-rule: 0.7rem double var(--color-green);
+}
+
+#dates {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-handwritten);
+  font: small-caps bold 2rem/1 var(--font-handwritten);
+}
+
+h2 {
+  column-span: all;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }

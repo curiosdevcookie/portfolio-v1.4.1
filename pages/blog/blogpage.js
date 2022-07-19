@@ -3,5 +3,3 @@ document.getElementById('created-on').innerHTML = blogEntryCreationDate.toDateSt
 
 const blogEntryUpdateDate = new Date();
 document.getElementById('updated-on').innerHTML = blogEntryCreationDate.toDateString();
-
-
