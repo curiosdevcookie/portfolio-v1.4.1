@@ -1,0 +1,59 @@
+
+/* Table of Contents */
+
+/* -----------------------------------------------------*/
+
+/* >>> 1. RESETS  <<<<<<<<<<<<< */
+
+/* >>> 2. CSS VARIABLES  <<<<<< */
+
+/* >>> 3. FONTS  <<<<<<<<<<<<<< */
+
+/* >>> 4. NAVIGATION <<<<<<<<<< */
+
+/* >>> 5. COMPONENTS <<<<<<<<<< */
+
+/* >>> 6. VARIA <<<<<<<<<<<<<<< */
+
+/* -----------------------------------------------------*/
+
+/* >>> 1. RESETS  <<<<<<<<<<<<< */
+:root{
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+
+/* >>> 2. CSS VARIABLES <<<<<<< */
+--black: #000000;
+--color-grey: #BABABA;
+--color-white: #FFFFFF;
+--color-green: #BAF584;
+--color-purple: rebbeccapurple;
+
+/* >>> 3. FONTS  <<<<<<<<<<<<<< */
+--font-heading: 'Arima', serif;
+--font-handwritten: 'Caveat' , serif;
+--font-regular: 'Roboto Flex', sans-serif;
+
+}
+
+@font-face {
+  font-family: var(--font-heading);
+  src: url('/fonts/Arima/Arima-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: var(--font-handwritten);
+  src: url('./fonts/Caveat/Caveat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: var(--font-regular);
+  src: url('./fonts/Roboto_Flex/');
+}
+
+/* >>> 4. NAVIGATION <<<<<<<<<< */
+
+/* >>> 5. COMPONENTS <<<<<<<<<< */
+
+/* >>> 6. VARIA <<<<<<<<<<<<<<< */
