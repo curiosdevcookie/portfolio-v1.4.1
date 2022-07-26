@@ -11,9 +11,11 @@
 
 /* >>> 4. NAVIGATION <<<<<<<<<< */
 
-/* >>> 5. COMPONENTS <<<<<<<<<< */
+/* >>> 5. MAIN <<<<<<<<<<<<<<<< */
 
-/* >>> 6. VARIA <<<<<<<<<<<<<<< */
+/* >>> 6. COMPONENTS <<<<<<<<<< */
+
+/* >>> 7. VARIA <<<<<<<<<<<<<<< */
 
 /* -----------------------------------------------------*/
 
@@ -33,28 +35,67 @@
 
 /* >>> 3. FONTS  <<<<<<<<<<<<<< */
 --font-heading: 'Arima', serif;
---font-handwritten: 'Caveat' , serif;
+--font-handwritten: 'Caveat' , cursive;
+--font-handwritten-sloppy: 'Beth Ellen', cursive;
 --font-regular: 'Roboto Flex', sans-serif;
-
 }
 
-@font-face {
+@font-face{
   font-family: var(--font-heading);
-  src: url('/fonts/Arima/Arima-VariableFont_wght.ttf');
+  src: url('../fonts/Arima/Arima-VariableFont_wght.ttf');
 }
 
-@font-face {
+@font-face{
   font-family: var(--font-handwritten);
-  src: url('./fonts/Caveat/Caveat-VariableFont_wght.ttf');
+  src: url('../fonts/Caveat/Caveat-VariableFont_wght.ttf');
 }
 
-@font-face {
+@font-face{
+  font-family: var(--font-handwritten-sloppy);
+  src: url('../fonts/Beth_Ellen/BethEllen-Regular.ttf') format('truetype');
+}
+
+@font-face{
   font-family: var(--font-regular);
-  src: url('./fonts/Roboto_Flex/');
+  src: url('../fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf');
 }
 
 /* >>> 4. NAVIGATION <<<<<<<<<< */
 
-/* >>> 5. COMPONENTS <<<<<<<<<< */
+/* >>> 5. MAIN <<<<<<<<<<<<<<<< */
 
-/* >>> 6. VARIA <<<<<<<<<<<<<<< */
+body{
+  background-image: url('../images/textures/Wall_texture_6.jpg');
+
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+}
+
+.note, .polaroid{
+  background-color: var(--color-white);
+  padding: 1rem 1rem 3rem 1rem;
+  height: 40vh;
+  width: fit-content;
+}
+
+img{
+  width: auto;
+  height: 100%;
+}
+
+figcaption{
+  font-size: 2rem;
+  font-family: var(--font-handwritten-sloppy);
+  align-self: flex-end;
+  padding-right: 1rem;
+}
+
+/* >>> 6. COMPONENTS <<<<<<<<<< */
+
+/* >>> 7. VARIA <<<<<<<<<<<<<<< */
