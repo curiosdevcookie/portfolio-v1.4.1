@@ -1,101 +1,49 @@
 
-/* Table of Contents */
-
-/* -----------------------------------------------------*/
-
-/* >>> 1. RESETS  <<<<<<<<<<<<< */
-
-/* >>> 2. CSS VARIABLES  <<<<<< */
-
-/* >>> 3. FONTS  <<<<<<<<<<<<<< */
-
-/* >>> 4. NAVIGATION <<<<<<<<<< */
-
-/* >>> 5. MAIN <<<<<<<<<<<<<<<< */
-
-/* >>> 6. COMPONENTS <<<<<<<<<< */
-
-/* >>> 7. VARIA <<<<<<<<<<<<<<< */
-
-/* -----------------------------------------------------*/
-
-/* >>> 1. RESETS  <<<<<<<<<<<<< */
-:root{
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-  box-sizing: border-box;
-
-/* >>> 2. CSS VARIABLES <<<<<<< */
---black: #0f0000;
---color-grey: #BABABA;
---color-white: #fffffd;
---color-green: #BAF584;
---color-purple: rebbeccapurple;
-
-/* >>> 3. FONTS  <<<<<<<<<<<<<< */
---font-heading: 'Arima', serif;
---font-handwritten: 'Caveat' , cursive;
---font-handwritten-sloppy: 'Beth Ellen', cursive;
---font-regular: 'Roboto Flex', sans-serif;
-}
-
-@font-face{
-  font-family: var(--font-heading);
-  src: url('../fonts/Arima/Arima-VariableFont_wght.ttf');
-}
-
-@font-face{
-  font-family: var(--font-handwritten);
-  src: url('../fonts/Caveat/Caveat-VariableFont_wght.ttf');
-}
-
-@font-face{
-  font-family: var(--font-handwritten-sloppy);
-  src: url('../fonts/Beth_Ellen/BethEllen-Regular.ttf') format('truetype');
-}
-
-@font-face{
-  font-family: var(--font-regular);
-  src: url('../fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf');
-}
-
-/* >>> 4. NAVIGATION <<<<<<<<<< */
-
-/* >>> 5. MAIN <<<<<<<<<<<<<<<< */
-
 body{
   background-image: url('../images/textures/Wall_texture_6.jpg');
-
-  display: grid;
-  place-items: center;
-  justify-content: center;
 }
 
-figure{
-  display: flex;
-  flex-direction: column;
-}
 
 .note, .polaroid{
   background-color: var(--color-white);
-  padding: 1rem 1rem 3rem 1rem;
-  height: 40vh;
+  padding: 1rem 1rem 4rem 1rem;
   width: fit-content;
+  height: 40vh;
+  box-shadow:  0 0.5rem 1rem var(--color-black);
 }
 
-img{
+#portrait{
   width: auto;
-  height: 100%;
+  height: 40vh;
+}
+
+#signature{
+  width: 20%;
+  height: auto;
+  position: relative;
+  top: -12rem; left: 13rem;
 }
 
 figcaption{
   font-size: 2rem;
   font-family: var(--font-handwritten-sloppy);
-  align-self: flex-end;
   padding-right: 1rem;
 }
 
-/* >>> 6. COMPONENTS <<<<<<<<<< */
+button{
+  border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 
-/* >>> 7. VARIA <<<<<<<<<<<<<<< */

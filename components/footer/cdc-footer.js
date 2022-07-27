@@ -7,10 +7,11 @@ class Footer extends HTMLElement {
       <style>
         section {
           font-family: var(--font-handwritten-sloppy);
-          font-size: 1rem;
+          font-size: 2rem;
       </style>
 
-        <section>✨ Built in 🇪🇺🇩🇪 with copious amounts of 🫀 && 🧠 && ☕️ && 🎉 by <a href='https://twitter.com/curiosdevcookie'> @curiosdevcookie.
+        <section>
+        <p>✨ Built in 🇪🇺🇩🇪…  with copious amounts of 🫀 && 🧠 && ☕️ && 🎉 by <a href='https://twitter.com/curiosdevcookie'> @curiosdevcookie</a> .✨</p>
         </section>
     `;
   }
