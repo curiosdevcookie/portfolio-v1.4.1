@@ -17,7 +17,11 @@
 
 /* -----------------------------------------------------*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+
 /* >>> 1. RESETS  <<<<<<<<<<<<< */
+
 :root{
   padding: 0;
   margin: 0;
@@ -34,7 +38,8 @@
 /* >>> 3. FONTS  <<<<<<<<<<<<<< */
 --font-heading: 'Arima', serif;
 --font-handwritten: 'Caveat' , cursive;
---font-sloppy: "HandwritingPlain", cursive;
+--font-sloppy: 'HandwritingPlain', cursive;
+--font-handwritten-Beth: 'Beth Ellen', cursive;
 --font-regular: 'Roboto Flex', sans-serif;
 }
 
