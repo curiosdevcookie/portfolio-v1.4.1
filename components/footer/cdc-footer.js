@@ -5,6 +5,7 @@ class Footer extends HTMLElement {
     let shadow = this.attachShadow({ mode: 'open' });
     shadow.innerHTML = `
       <style>
+      @import url("../
         section {
           font-family: var(--font-handwritten-sloppy);
           font-size: 2rem;
