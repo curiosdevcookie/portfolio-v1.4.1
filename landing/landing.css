@@ -1,4 +1,10 @@
 
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   background-image: url('../images/textures/Wall_texture_6.jpg');
 }
