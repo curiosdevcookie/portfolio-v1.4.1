@@ -21,10 +21,9 @@ div {
   object-fit: scale-down;
   object-position: 50% 50%;
   overflow: hidden;
-
 }
 
-/* 
+/*
 main > div:nth-of-type(even):hover {
   opacity: 0.5;
   cursor: pointer;
