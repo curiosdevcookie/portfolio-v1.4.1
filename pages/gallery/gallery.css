@@ -29,7 +29,7 @@ main > div:nth-of-type(even):hover {
   cursor: pointer;
   } */
 
-div:nth-of-type(odd) {
+a:nth-of-type(odd) {
   grid-column:  span 2;
   grid-row: span 2;
   }
