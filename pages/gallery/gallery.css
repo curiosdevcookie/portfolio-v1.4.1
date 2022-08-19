@@ -7,7 +7,7 @@
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   grid-auto-flow: dense;
   grid-gap: 1rem;
   padding: 2rem;
@@ -23,11 +23,6 @@ div {
   overflow: hidden;
 }
 
-/*
-main > div:nth-of-type(even):hover {
-  opacity: 0.5;
-  cursor: pointer;
-  } */
 
 a:nth-of-type(odd) {
   grid-column:  span 2;
@@ -39,9 +34,16 @@ img {
   height: 100%;
 }
 
-/*
+
   main > div:hover {
     cursor: pointer;
     width:max-content;
     z-index: 1;
-  } */
+  }
+
+
+figure:has(pre) {
+  background: rgb(252, 232, 255);
+  border: 3px solid white;
+  padding: 1rem;
+}
