@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+
 :root{
   padding: 0;
   margin: 0;
@@ -11,17 +14,12 @@
 --color-purple: rebbeccapurple;
 
 --font-regular: 'Arima', serif;
---font-handwritten: 'Caveat' , serif;
+--font-handwritten: 'Beth Ellen' , serif;
 }
 
 @font-face {
   font-family: var(--font-regular);
   src: url('../../fonts/Arima/Arima-VariableFont_wght.ttf');
-}
-
-@font-face {
-  font-family: var(--font-handwritten);
-  src: url('../../fonts/Caveat/Caveat-VariableFont_wght.ttf');
 }
 
 main {
@@ -78,7 +76,7 @@ section > p::first-letter {
   font-weight: bold;
 }
 h1, h2, h3, h4, h5, h6 {
-  font: small-caps bold 2rem/1 var(--font-handwritten);
+  font: small-caps bold 2rem  var(--font-handwritten);
 }
 
 h2 {
