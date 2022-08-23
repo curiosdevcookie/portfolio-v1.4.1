@@ -68,6 +68,11 @@ aside p {
   column-rule: 0.7rem double var(--color-green);
 }
 
+section > p::first-letter {
+  -webkit-initial-letter: 4.0;
+  initial-letter: 4.0;
+}
+
 #dates {
   font-size: 1.5rem;
   font-weight: bold;
