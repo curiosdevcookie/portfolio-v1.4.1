@@ -3,4 +3,4 @@
 This is my portfolio:
 https://www.curiosdevcookie.dev
 
-It's a work-in-progress, but for the sake of building in public, I've decided to share it as is .
+It's a work-in-progress, but for the sake of building in public, I've decided to share it as is 🦖
