@@ -17,7 +17,7 @@ Total number of visitors: ![Visitor Badge](https://visitor-badge.laobi.icu/badge
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
 
-## :raising_hand_woman: in some numbers & keywords:
+## :woman_technologist: in some numbers & keywords:
 
 [![curiosdevcookie's GitHub Stats](https://github-readme-stats.vercel.app/api?username=curiosdevcookie&count_private=true&show_icons=true)](https://github.com/curiosdevcookie/github-readme-stats)
 
