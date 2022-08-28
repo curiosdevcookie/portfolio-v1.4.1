@@ -16,7 +16,7 @@ It's a work-in-progress, but for the sake of building in public, I've decided to
 You can find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
 
 [1.2]: http://i.imgur.com/wWzX9uB.png
-[2.2]: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png=10x10
+[2.2]: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
 
 [1]: https://twitter.com/curiosdevcookie
 [2]: https://www.linkedin.com/in/ariadne-engelbrecht
