@@ -28,7 +28,6 @@ Total number of visitors: ![Visitor Badge](https://visitor-badge.laobi.icu/badge
 ### You can find me on… [![Twitter][1.2]][1] & on [![Linkedin Badge](https://img.shields.io/badge/-ariadneengelbrecht-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ariadne-engelbrecht/)](https://www.linkedin.com/in/ariadne-engelbrecht/).
 
 [1.2]: http://i.imgur.com/wWzX9uB.png
-[2.2]: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
 
 [1]: https://twitter.com/curiosdevcookie
 [2]: https://www.linkedin.com/in/ariadne-engelbrecht
