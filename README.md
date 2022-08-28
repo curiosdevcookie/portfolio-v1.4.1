@@ -26,7 +26,7 @@ Total number of visitors: ![Visitor Badge](https://visitor-badge.laobi.icu/badge
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
-### You can find me on… [![Twitter][1.2]][1] & on [![Linkedin Badge](https://img.shields.io/badge/-anirudhemmadi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ariadne-engelbrecht/)](https://www.linkedin.com/in/ariadne-engelbrecht/).
+### You can find me on… [![Twitter][1.2]][1] & on [![Linkedin Badge](https://img.shields.io/badge/-ariadneengelbrecht-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ariadne-engelbrecht/)](https://www.linkedin.com/in/ariadne-engelbrecht/).
 
 [1.2]: http://i.imgur.com/wWzX9uB.png
 [2.2]: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
