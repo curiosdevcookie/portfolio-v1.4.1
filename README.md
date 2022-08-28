@@ -25,7 +25,7 @@ Total number of visitors: ![Visitor Badge](https://visitor-badge.laobi.icu/badge
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=curiosdevcookie)](https://github.com/curiosdevcookie/github-readme-stats)
 
 
-### You can find me on… [![Twitter][1.2]][1] & on [![Linkedin Badge](https://img.shields.io/badge/-ariadneengelbrecht-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ariadne-engelbrecht/)](https://www.linkedin.com/in/ariadne-engelbrecht/).
+### You can find me on … [![Twitter][1.2]][1] & on [![Linkedin Badge](https://img.shields.io/badge/-ariadneengelbrecht-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ariadne-engelbrecht/)](https://www.linkedin.com/in/ariadne-engelbrecht/).
 
 [1.2]: http://i.imgur.com/wWzX9uB.png
 
