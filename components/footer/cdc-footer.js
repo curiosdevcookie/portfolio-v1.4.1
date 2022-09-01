@@ -5,11 +5,8 @@ class Footer extends HTMLElement {
     let shadow = this.attachShadow({ mode: 'open' });
     shadow.innerHTML = `
       <style>
-      @import url @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
-        
-      :host {
-        font-family: 'Beth+Ellen', cursive;
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+
         section {
           font-family: 'Beth Ellen', cursive;
           font-size: 2rem;
